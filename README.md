@@ -23,3 +23,8 @@ A list of tasks to do when setting up a new computer
 
 * Git
     * [removeMerged](https://github.com/plivesey/removeMerged)
+    * [churn](https://github.com/garybernhardt/dotfiles/blob/f0c0ff92209e5aed4fa3ef6faf056eb9944a8f12/bin/git-churn) - A good utility when starting on a new project to see what the key files are.
+    
+* Xcode
+    * [Fix focused editor](https://www.jessesquires.com/blog/xcode-tip-improving-assistant-editor/)
+    * Preferences -> Text Editing -> While editing -> Select all checkboxes
