@@ -28,3 +28,4 @@ A list of tasks to do when setting up a new computer
 * Xcode
     * [Fix focused editor](https://www.jessesquires.com/blog/xcode-tip-improving-assistant-editor/)
     * Preferences -> Text Editing -> While editing -> Select all checkboxes
+    * [DevCleaner](https://itunes.apple.com/us/app/devcleaner/id1388020431?mt=12) - Automatically reclaims GBs of disk space used by XCode caches.
