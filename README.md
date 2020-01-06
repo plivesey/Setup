@@ -9,7 +9,7 @@ A list of tasks to do when setting up a new computer
 * Slate Window Manager
     * [Config](https://github.com/plivesey/SlateConfig)
 
-* [Overkill](https://krausefx.com/blog/introducing-overkill-dont-let-itunes-interrupt-your-workflow)
+* [GIF Creator](https://apps.apple.com/us/app/crunchygif-ezpz-video-to-gif/id1485165995?mt=12)
 
 ## Code
 
