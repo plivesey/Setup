@@ -11,6 +11,11 @@ A list of tasks to do when setting up a new computer
 
 * [GIF Creator](https://apps.apple.com/us/app/crunchygif-ezpz-video-to-gif/id1485165995?mt=12)
 
+* System Preferences
+    * Trackpad
+        * Tracking speed - 2 lower than fast
+        * More gestures - disable notification center, expose and launchpad
+
 ## Code
 
 * Visual Studio
@@ -29,3 +34,9 @@ A list of tasks to do when setting up a new computer
     * [Fix focused editor](https://www.jessesquires.com/blog/xcode-tip-improving-assistant-editor/)
     * Preferences -> Text Editing -> While editing -> Select all checkboxes
     * [DevCleaner](https://itunes.apple.com/us/app/devcleaner/id1388020431?mt=12) - Automatically reclaims GBs of disk space used by XCode caches.
+    * `defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES`
+
+## Chrome Extensions
+
+* [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
+
