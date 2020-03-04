@@ -9,12 +9,22 @@ A list of tasks to do when setting up a new computer
 * Slate Window Manager
     * [Config](https://github.com/plivesey/SlateConfig)
 
-* [GIF Creator](https://apps.apple.com/us/app/crunchygif-ezpz-video-to-gif/id1485165995?mt=12)
-
 * System Preferences
     * Trackpad
-        * Tracking speed - 2 lower than fast
+        * Tracking speed - fastest
         * More gestures - disable notification center, expose and launchpad
+    * Mouse
+        * Tracking speed - 1 lower than fastest
+        * Scrolling speed - 3 lower than fastest
+    * Keyboard
+        * $ defaults write -g ApplePressAndHoldEnabled -bool false
+        * Keyboard -> max out key repeat and delay until repeat
+        * Customize control strip and remove Siri
+
+* Clipboard management
+    * [Flycut](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987)
+
+* [GIF Creator](https://apps.apple.com/us/app/crunchygif-ezpz-video-to-gif/id1485165995?mt=12)
 
 ## Code
 
@@ -25,10 +35,15 @@ A list of tasks to do when setting up a new computer
 
 * iTerm
     * [Fix option-left/right](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x)
+    * tmux - `brew install tmux` - Recover accidentally closed terminal sessions.
+    * [fzf](https://github.com/junegunn/fzf#installation) - Better control + r and control + t to search for commands and files.
 
 * Git
     * [removeMerged](https://github.com/plivesey/removeMerged)
     * [churn](https://github.com/garybernhardt/dotfiles/blob/f0c0ff92209e5aed4fa3ef6faf056eb9944a8f12/bin/git-churn) - A good utility when starting on a new project to see what the key files are.
+    * [up](https://github.com/aanand/git-up) - stach, checkout master, pull, checkout branch, unstash in one command
+    * Set open diff as the mergetool: `$ git config --global merge.tool opendiff`
+    * Add things to `~/.gitconfig` from the `.gitconfig` file in this repo
     
 * Xcode
     * [Fix focused editor](https://www.jessesquires.com/blog/xcode-tip-improving-assistant-editor/)
@@ -39,4 +54,4 @@ A list of tasks to do when setting up a new computer
 ## Chrome Extensions
 
 * [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
-
+* Ad blocker
