@@ -1,3 +1,11 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Peter Livesey
+	email = [TODO FILL OUT GITCONFIG]
 [alias]
     co = checkout
     ci = commit
@@ -6,12 +14,15 @@
     d = !git diff --name-status $(git merge-base --fork-point master)..HEAD
     dd = !git diff $(git merge-base --fork-point master)..HEAD
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-    tip = rev-parse HEAD
-    l = log HEAD --not master --no-merges
     pf = push --force-with-lease
-    stale = !git up && git rebase master
 
 [push]
 	default = current
+[rerere]
+	enabled = true
+[core]
+	precomposeunicode = true
+	excludesfile = /Users/peter_livesey/.gitignore_global
+	sparseCheckout = true
 [merge]
 	tool = opendiff

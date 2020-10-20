@@ -34,14 +34,15 @@ A list of tasks to do when setting up a new computer
         * [StandardJS Linter](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs)
 
 * iTerm
+    * Starter `.zshrc` is in this directory. Copy it to `~/.zshrc`.
     * [Fix option-left/right](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x)
     * tmux - `brew install tmux` - Recover accidentally closed terminal sessions.
     * [fzf](https://github.com/junegunn/fzf#installation) - Better control + r and control + t to search for commands and files.
 
 * Git
+    * Starter `.gitconfig` is in this directory. Copy it to `~/.gitconfig`. Make sure to fill in the email address.
     * [removeMerged](https://github.com/plivesey/removeMerged)
     * [churn](https://github.com/garybernhardt/dotfiles/blob/f0c0ff92209e5aed4fa3ef6faf056eb9944a8f12/bin/git-churn) - A good utility when starting on a new project to see what the key files are.
-    * [up](https://github.com/aanand/git-up) - stach, checkout master, pull, checkout branch, unstash in one command
     * Set open diff as the mergetool: `$ git config --global merge.tool opendiff`
     * Add things to `~/.gitconfig` from the `.gitconfig` file in this repo
     
