@@ -26,6 +26,9 @@ A list of tasks to do when setting up a new computer
 
 * [GIF Creator](https://apps.apple.com/us/app/crunchygif-ezpz-video-to-gif/id1485165995?mt=12)
 
+* Send screenshots to the Downloads folder
+    * Run in terminal: `defaults write com.apple.screencapture location ~/Downloads`
+
 ## Code
 
 * Visual Studio
