@@ -41,6 +41,7 @@ A list of tasks to do when setting up a new computer
     * [Fix option-left/right](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x)
     * tmux - `brew install tmux` - Recover accidentally closed terminal sessions.
     * [fzf](https://github.com/junegunn/fzf#installation) - Better control + r and control + t to search for commands and files.
+    * bat - `brew install bat` - `cat` with syntax highlighting.
 
 * Git
     * Starter `.gitconfig` is in this directory. Copy it to `~/.gitconfig`. Make sure to fill in the email address.
